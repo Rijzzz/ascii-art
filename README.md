@@ -7,7 +7,6 @@ A Python script that converts any image into colored ASCII art and prints it in 
 ### How It Works
 
 ```mermaid
-%%{init: {'theme': 'base', 'themeVariables': {'primaryColor': 'transparent', 'primaryBorderColor': '#888', 'primaryTextColor': '#000', 'lineColor': '#888', 'background': 'transparent'}}}%%
 flowchart LR
     Image[Input Image] --> Resize[Resize to Target Width]
     Resize --> Pixels[Loop Every Pixel]
